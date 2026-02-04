@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nlog.schema\6.0.4\build\NLog.Schema.targets" Condition="Exists('$(NuGetPackageRoot)nlog.schema\6.0.4\build\NLog.Schema.targets')" />
+  </ImportGroup>
+</Project>

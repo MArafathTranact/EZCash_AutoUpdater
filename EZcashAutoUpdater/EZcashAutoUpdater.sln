@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZcashAutoUpdater", "EZcashAutoUpdater\EZcashAutoUpdater.csproj", "{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EZCashATMServiceAutoUpdater", "EZCashATMServiceAutoUpdater\EZCashATMServiceAutoUpdater.vdproj", "{5789618E-0940-977E-8EFD-0A1087DA6424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Debug|x86.ActiveCfg = Debug|x86
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Debug|x86.Build.0 = Debug|x86
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Release|x86.ActiveCfg = Release|x86
+		{345CA597-B8FD-4664-927D-C0AE7E1FAC2F}.Release|x86.Build.0 = Release|x86
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Debug|x86.ActiveCfg = Debug
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Debug|x86.Build.0 = Debug
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Release|x86.ActiveCfg = Release
+		{5789618E-0940-977E-8EFD-0A1087DA6424}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {934F9F11-52FD-4AA7-8C29-BED7EE668B3D}
+	EndGlobalSection
+EndGlobal

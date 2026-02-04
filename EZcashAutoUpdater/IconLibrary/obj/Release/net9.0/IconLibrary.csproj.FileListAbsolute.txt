@@ -1,0 +1,11 @@
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\bin\Release\net9.0\IconLibrary.deps.json
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\bin\Release\net9.0\IconLibrary.dll
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\bin\Release\net9.0\IconLibrary.pdb
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.AssemblyInfoInputs.cache
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.AssemblyInfo.cs
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.dll
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\refint\IconLibrary.dll
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\IconLibrary.pdb
+C:\Users\MAraf\source\repos\EZcashAutoUpdater\IconLibrary\obj\Release\net9.0\ref\IconLibrary.dll

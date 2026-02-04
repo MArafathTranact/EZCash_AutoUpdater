@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Arafath_PC_9222025\\repos\\EZcashAutoUpdater\\EZCashCoinAutoUpdate\\EZCashCoinAutoUpdate.csproj": {}
+  },
+  "projects": {
+    "D:\\Arafath_PC_9222025\\repos\\EZcashAutoUpdater\\EZCashCoinAutoUpdate\\EZCashCoinAutoUpdate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Arafath_PC_9222025\\repos\\EZcashAutoUpdater\\EZCashCoinAutoUpdate\\EZCashCoinAutoUpdate.csproj",
+        "projectName": "EZCashCoinAutoUpdate",
+        "projectPath": "D:\\Arafath_PC_9222025\\repos\\EZcashAutoUpdater\\EZCashCoinAutoUpdate\\EZCashCoinAutoUpdate.csproj",
+        "packagesPath": "C:\\Users\\marafath\\.nuget\\packages\\",
+        "outputPath": "D:\\Arafath_PC_9222025\\repos\\EZcashAutoUpdater\\EZCashCoinAutoUpdate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marafath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "NLog.Targets.Loki": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "System.Security.AccessControl": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Security.Principal": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[10.0.0-rc.1.25451.107, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
