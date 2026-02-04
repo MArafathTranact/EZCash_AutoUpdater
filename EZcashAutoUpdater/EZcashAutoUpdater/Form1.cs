@@ -879,7 +879,6 @@ namespace EZcashAutoUpdater
         {
             Dictionary<string, string> configValue = [];
 
-
             try
             {
                 XDocument doc = XDocument.Load(configFilePath);
@@ -896,41 +895,49 @@ namespace EZcashAutoUpdater
 
                 XElement EZCashAPIsetting = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "EZCashAPI");
                 if (EZCashAPIsetting != null)
-                    configValue.Add("EZCashAPI", Portsetting.Attribute("value")?.Value);
+                    configValue.Add("EZCashAPI", EZCashAPIsetting.Attribute("value")?.Value);
 
                 XElement EZCashTokensetting = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "EZCashToken");
                 if (EZCashTokensetting != null)
-                    configValue.Add("EZCashToken", Portsetting.Attribute("value")?.Value);
+                    configValue.Add("EZCashToken", EZCashTokensetting.Attribute("value")?.Value);
 
                 XElement LocalPort = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "LocalPort");
-                if (EZCashTokensetting != null)
-                    configValue.Add("LocalPort", Portsetting.Attribute("value")?.Value);
+                if (LocalPort != null)
+                    configValue.Add("LocalPort", LocalPort.Attribute("value")?.Value);
 
                 XElement JPEGgerAPI = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "JPEGgerAPI");
-                if (EZCashTokensetting != null)
-                    configValue.Add("JPEGgerAPI", Portsetting.Attribute("value")?.Value);
+                if (JPEGgerAPI != null)
+                    configValue.Add("JPEGgerAPI", JPEGgerAPI.Attribute("value")?.Value);
 
                 XElement JPEGgerToken = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "JPEGgerToken");
-                if (EZCashTokensetting != null)
-                    configValue.Add("JPEGgerToken", Portsetting.Attribute("value")?.Value);
+                if (JPEGgerToken != null)
+                    configValue.Add("JPEGgerToken", JPEGgerToken.Attribute("value")?.Value);
 
                 XElement IncludeToken = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "IncludeToken");
                 if (IncludeToken != null)
-                    configValue.Add("IncludeToken", Portsetting.Attribute("value")?.Value);
+                    configValue.Add("IncludeToken", IncludeToken.Attribute("value")?.Value);
 
                 XElement IncludeWebSocket = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "IncludeWebSocket");
-                if (EZCashTokensetting != null)
-                    configValue.Add("IncludeWebSocket", Portsetting.Attribute("value")?.Value);
+                if (IncludeWebSocket != null)
+                    configValue.Add("IncludeWebSocket", IncludeWebSocket.Attribute("value")?.Value);
 
                 XElement EZCashWebSocket = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "EZCashWebSocket");
-                if (EZCashTokensetting != null)
-                    configValue.Add("EZCashWebSocket", Portsetting.Attribute("value")?.Value);
+                if (EZCashWebSocket != null)
+                    configValue.Add("EZCashWebSocket", EZCashWebSocket.Attribute("value")?.Value);
+
+                XElement TraceFileSize = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "TraceFileSize");
+                if (TraceFileSize != null)
+                    configValue.Add("TraceFileSize", TraceFileSize.Attribute("value")?.Value);
+
+                XElement DeleteArchieved = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "DeleteArchieved");
+                if (DeleteArchieved != null)
+                    configValue.Add("DeleteArchieved", DeleteArchieved.Attribute("value")?.Value);
 
                 XElement Load = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == "Load");
-                if (EZCashTokensetting != null)
+                if (Load != null)
                 {
-                    configValue.Add("Receipt", Portsetting.Attribute("value")?.Value);
-                    configValue.Add("Load", Portsetting.Attribute("value")?.Value);
+                    configValue.Add("Receipt", Load.Attribute("value")?.Value);
+                    configValue.Add("Load", Load.Attribute("value")?.Value);
                 }
             }
             catch (Exception ex)
@@ -962,7 +969,6 @@ namespace EZcashAutoUpdater
                     {
                         foreach (var item in existingConfig)
                         {
-
                             XElement setting = appSettings.Elements("add").FirstOrDefault(e => e.Attribute("key")?.Value == item.Key);
 
                             if (setting != null)
